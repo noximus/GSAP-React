@@ -1,0 +1,54 @@
+body,
+pre {
+	background-color: #333;
+	color: #fff;
+}
+
+hr {
+	border-color: #fff;
+}
+
+.gsap-btn {
+	background-color: #73b102;
+	color: #fff;
+}
+
+.gsap-btn:hover,
+.gsap-btn:active,
+.gsap-btn:focus {
+	background-color: #88ce02;
+}
+
+.card-container {
+	transform: translateY(25px);
+	opacity: 0;
+	visibility: hidden;
+}
+
+.transition-card {
+	transform: translateX(100px);
+	opacity: 0;
+	visibility: hidden;
+	background-color: #73b102;
+	color: #fff;
+}
+
+.transition-card.simple {
+	transform: translateX(100px);
+	opacity: 0;
+	visibility: hidden;
+}
+
+.transition-card h4 {
+	margin: 10px 0;
+}
+
+button.close {
+	color: #fff;
+	opacity: 1;
+}
+
+button.close:hover,
+button.close:focus {
+	color: #003b03;
+}
