@@ -1,0 +1,32 @@
+body {
+	background-color: #333;
+	color: #fff;
+}
+
+hr {
+	border-color: #fff;
+}
+
+.logo {
+	width: 150px;
+}
+
+.gsap-btn {
+	background-color: #73b102;
+	color: #fff;
+}
+
+.gsap-btn:hover,
+.gsap-btn:active,
+.gsap-btn:focus {
+	background-color: #88ce02;
+}
+
+.media-body {
+	color: #333;
+}
+
+.card-element {
+	opacity: 0;
+	visibility: hidden;
+}
